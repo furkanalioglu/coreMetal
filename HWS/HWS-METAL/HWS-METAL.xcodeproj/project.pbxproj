@@ -22,6 +22,7 @@
 		9112E0FD2C05AF1700B6C973 /* invertAlpha.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0FC2C05AF1700B6C973 /* invertAlpha.metal */; };
 		9112E1012C05B0A000B6C973 /* MainContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E1002C05B0A000B6C973 /* MainContent.swift */; };
 		9112E1032C05B0EA00B6C973 /* EffectsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E1022C05B0EA00B6C973 /* EffectsPage.swift */; };
+		9112E1052C05B23200B6C973 /* gradient.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9112E1042C05B23200B6C973 /* gradient.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9112E0FC2C05AF1700B6C973 /* invertAlpha.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = invertAlpha.metal; sourceTree = "<group>"; };
 		9112E1002C05B0A000B6C973 /* MainContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContent.swift; sourceTree = "<group>"; };
 		9112E1022C05B0EA00B6C973 /* EffectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsPage.swift; sourceTree = "<group>"; };
+		9112E1042C05B23200B6C973 /* gradient.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = gradient.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				9112E0FA2C05A6CF00B6C973 /* EffectExampleView.swift */,
 				9112E0F82C05A53100B6C973 /* recolor.metal */,
 				9112E0FC2C05AF1700B6C973 /* invertAlpha.metal */,
+				9112E1042C05B23200B6C973 /* gradient.metal */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -169,8 +172,8 @@
 		9112E0FE2C05B08C00B6C973 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				9112E0C82C058D5F00B6C973 /* AnimationsPage.swift */,
 				9112E1022C05B0EA00B6C973 /* EffectsPage.swift */,
+				9112E0C82C058D5F00B6C973 /* AnimationsPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				9112E0C92C058D5F00B6C973 /* AnimationsPage.swift in Sources */,
 				9112E0F12C05980400B6C973 /* rainbow.metal in Sources */,
 				9112E0F32C0599EF00B6C973 /* wave.metal in Sources */,
+				9112E1052C05B23200B6C973 /* gradient.metal in Sources */,
 				9112E1012C05B0A000B6C973 /* MainContent.swift in Sources */,
 				9112E0F72C05A05100B6C973 /* AnimationExampleView.swift in Sources */,
 				9112E0F92C05A53100B6C973 /* recolor.metal in Sources */,

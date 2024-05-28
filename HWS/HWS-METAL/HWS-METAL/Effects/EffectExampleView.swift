@@ -28,6 +28,14 @@ struct EffectExampleView: View {
                     .padding(.vertical, 20)
                     .cornerRadius(10)
                     .colorEffect(ShaderLibrary.invertAlpha())
+            case .gradient:
+                HeaderView(title: "Invert Alpha")
+                Image(systemName: "triangle")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding(.vertical, 20)
+                    .cornerRadius(10)
+                    .colorEffect(ShaderLibrary.gradient())
             }
         }
     }

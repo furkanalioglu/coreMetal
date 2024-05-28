@@ -16,7 +16,7 @@ struct AnimationsPage: View {
     @State private var waveBackgroundColor: Color = Color(.white)
 
     var body: some View {
-        VStack(spacing: 20) {
+        ScrollView {
             AnimationExampleView(effectType: .rainbow,
                                  title: "Rainbow Effect",
                                  backgroundColor: .constant(.white))
