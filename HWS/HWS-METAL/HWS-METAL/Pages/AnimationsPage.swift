@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AnimationsPage: View {
     @State private var waveBackgroundColor: Color = Color(.white)
 
     var body: some View {
@@ -50,5 +50,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    ContentView()
+    AnimationsPage()
 }

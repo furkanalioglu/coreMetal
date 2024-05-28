@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9112E0C72C058D5F00B6C973 /* HWS_METALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0C62C058D5F00B6C973 /* HWS_METALApp.swift */; };
-		9112E0C92C058D5F00B6C973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0C82C058D5F00B6C973 /* ContentView.swift */; };
+		9112E0C92C058D5F00B6C973 /* AnimationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0C82C058D5F00B6C973 /* AnimationsPage.swift */; };
 		9112E0CB2C058D6000B6C973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9112E0CA2C058D6000B6C973 /* Assets.xcassets */; };
 		9112E0CE2C058D6000B6C973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9112E0CD2C058D6000B6C973 /* Preview Assets.xcassets */; };
 		9112E0D82C058D6000B6C973 /* HWS_METALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0D72C058D6000B6C973 /* HWS_METALTests.swift */; };
@@ -17,6 +17,11 @@
 		9112E0F12C05980400B6C973 /* rainbow.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0F02C05980400B6C973 /* rainbow.metal */; };
 		9112E0F32C0599EF00B6C973 /* wave.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0F22C0599EF00B6C973 /* wave.metal */; };
 		9112E0F72C05A05100B6C973 /* AnimationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0F62C05A05100B6C973 /* AnimationExampleView.swift */; };
+		9112E0F92C05A53100B6C973 /* recolor.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0F82C05A53100B6C973 /* recolor.metal */; };
+		9112E0FB2C05A6CF00B6C973 /* EffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0FA2C05A6CF00B6C973 /* EffectExampleView.swift */; };
+		9112E0FD2C05AF1700B6C973 /* invertAlpha.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9112E0FC2C05AF1700B6C973 /* invertAlpha.metal */; };
+		9112E1012C05B0A000B6C973 /* MainContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E1002C05B0A000B6C973 /* MainContent.swift */; };
+		9112E1032C05B0EA00B6C973 /* EffectsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112E1022C05B0EA00B6C973 /* EffectsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 /* Begin PBXFileReference section */
 		9112E0C32C058D5F00B6C973 /* HWS-METAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS-METAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9112E0C62C058D5F00B6C973 /* HWS_METALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWS_METALApp.swift; sourceTree = "<group>"; };
-		9112E0C82C058D5F00B6C973 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9112E0C82C058D5F00B6C973 /* AnimationsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsPage.swift; sourceTree = "<group>"; };
 		9112E0CA2C058D6000B6C973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9112E0CD2C058D6000B6C973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9112E0D32C058D6000B6C973 /* HWS-METALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWS-METALTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +55,11 @@
 		9112E0F02C05980400B6C973 /* rainbow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = rainbow.metal; sourceTree = "<group>"; };
 		9112E0F22C0599EF00B6C973 /* wave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = wave.metal; sourceTree = "<group>"; };
 		9112E0F62C05A05100B6C973 /* AnimationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleView.swift; sourceTree = "<group>"; };
+		9112E0F82C05A53100B6C973 /* recolor.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = recolor.metal; sourceTree = "<group>"; };
+		9112E0FA2C05A6CF00B6C973 /* EffectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectExampleView.swift; sourceTree = "<group>"; };
+		9112E0FC2C05AF1700B6C973 /* invertAlpha.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = invertAlpha.metal; sourceTree = "<group>"; };
+		9112E1002C05B0A000B6C973 /* MainContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContent.swift; sourceTree = "<group>"; };
+		9112E1022C05B0EA00B6C973 /* EffectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +110,12 @@
 		9112E0C52C058D5F00B6C973 /* HWS-METAL */ = {
 			isa = PBXGroup;
 			children = (
-				9112E0C62C058D5F00B6C973 /* HWS_METALApp.swift */,
-				9112E0C82C058D5F00B6C973 /* ContentView.swift */,
-				9112E0CA2C058D6000B6C973 /* Assets.xcassets */,
+				9112E1002C05B0A000B6C973 /* MainContent.swift */,
+				9112E0FE2C05B08C00B6C973 /* Pages */,
 				9112E0F52C059EF700B6C973 /* Effects */,
 				9112E0F42C059EEE00B6C973 /* Animations */,
+				9112E0C62C058D5F00B6C973 /* HWS_METALApp.swift */,
+				9112E0CA2C058D6000B6C973 /* Assets.xcassets */,
 				9112E0CC2C058D6000B6C973 /* Preview Content */,
 			);
 			path = "HWS-METAL";
@@ -148,8 +159,20 @@
 		9112E0F52C059EF700B6C973 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				9112E0FA2C05A6CF00B6C973 /* EffectExampleView.swift */,
+				9112E0F82C05A53100B6C973 /* recolor.metal */,
+				9112E0FC2C05AF1700B6C973 /* invertAlpha.metal */,
 			);
 			path = Effects;
+			sourceTree = "<group>";
+		};
+		9112E0FE2C05B08C00B6C973 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9112E0C82C058D5F00B6C973 /* AnimationsPage.swift */,
+				9112E1022C05B0EA00B6C973 /* EffectsPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,10 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9112E0C92C058D5F00B6C973 /* ContentView.swift in Sources */,
+				9112E0FD2C05AF1700B6C973 /* invertAlpha.metal in Sources */,
+				9112E1032C05B0EA00B6C973 /* EffectsPage.swift in Sources */,
+				9112E0C92C058D5F00B6C973 /* AnimationsPage.swift in Sources */,
 				9112E0F12C05980400B6C973 /* rainbow.metal in Sources */,
 				9112E0F32C0599EF00B6C973 /* wave.metal in Sources */,
+				9112E1012C05B0A000B6C973 /* MainContent.swift in Sources */,
 				9112E0F72C05A05100B6C973 /* AnimationExampleView.swift in Sources */,
+				9112E0F92C05A53100B6C973 /* recolor.metal in Sources */,
+				9112E0FB2C05A6CF00B6C973 /* EffectExampleView.swift in Sources */,
 				9112E0C72C058D5F00B6C973 /* HWS_METALApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
