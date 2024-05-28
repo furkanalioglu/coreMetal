@@ -8,22 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var waveBackgroundColor: Color = Color(.white)
+
     var body: some View {
         VStack(spacing: 20) {
-            HeaderView(title: "Rainbow Effect")
-            AnimationExampleView(effectType: .rainbow)
+            AnimationExampleView(effectType: .rainbow,
+                                 title: "Rainbow Effect",
+                                 backgroundColor: .constant(.white))
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.blue.opacity(0.1))
+                .background(.white)
                 .cornerRadius(10)
                 .shadow(radius: 5)
             
             Divider()
                 .padding(.vertical, 5)
             
-            HeaderView(title: "Wave Effect")
-            AnimationExampleView(effectType: .wave)
+            AnimationExampleView(effectType: .wave,
+                                 title: "Wave Effect",
+                                 backgroundColor: $waveBackgroundColor)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.green.opacity(0.1))
+                .background(.white)
                 .cornerRadius(10)
                 .shadow(radius: 5)
         }
