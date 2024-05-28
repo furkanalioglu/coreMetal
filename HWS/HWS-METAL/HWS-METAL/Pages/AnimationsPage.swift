@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+enum AnimationType {
+    case rainbow
+    case wave
+}
+
 struct AnimationsPage: View {
     @State private var waveBackgroundColor: Color = Color(.white)
 

@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+enum EffectType {
+    case recolor
+    case invertAlpha
+}
+
 struct EffectsPage: View {
     var body: some View {
         VStack(spacing: 20) {
-            EffectExampleView()
+            EffectExampleView(effectType: .recolor)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(.white)
                 .cornerRadius(10)
@@ -19,7 +24,7 @@ struct EffectsPage: View {
             Divider()
                 .padding(.vertical, 5)
             
-            EffectExampleView()
+            EffectExampleView(effectType: .invertAlpha)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(.white)
                 .cornerRadius(10)

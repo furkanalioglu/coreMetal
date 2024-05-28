@@ -8,20 +8,31 @@
 import SwiftUI
 
 struct EffectExampleView: View {
+    var effectType : EffectType
     var body: some View {
         VStack(spacing: 20) {
-            HeaderView(title: "Recolor Effect")
-            Image(systemName: "triangle")
-                .resizable()
-                .frame(width: 200, height: 200)
-                .padding(.vertical, 20)
-                .cornerRadius(10)
-                .shadow(radius: 5)
-                .colorEffect(ShaderLibrary.recolor())
+            switch effectType {
+            case .recolor:
+                HeaderView(title: "Recolor Effect")
+                Image(systemName: "triangle")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding(.vertical, 20)
+                    .cornerRadius(10)
+                    .colorEffect(ShaderLibrary.recolor())
+            case .invertAlpha:
+                HeaderView(title: "Invert Alpha")
+                Image(systemName: "triangle")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding(.vertical, 20)
+                    .cornerRadius(10)
+                    .colorEffect(ShaderLibrary.invertAlpha())
+            }
         }
     }
 }
 
 #Preview {
-    EffectExampleView()
+    EffectExampleView(effectType: .invertAlpha)
 }

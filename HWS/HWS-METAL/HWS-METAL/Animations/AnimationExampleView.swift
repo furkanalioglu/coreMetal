@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-enum AnimationType {
-    case rainbow
-    case wave
-}
-
 struct AnimationExampleView: View {
     var effectType: AnimationType
     var title: String
